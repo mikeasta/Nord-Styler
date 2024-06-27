@@ -6,7 +6,7 @@ from PIL import ImageColor
 IMAGE_DIR             = pathlib.Path("../../../images/")
 IMAGE_LABEL           = "kiryu_nishiki.jpg"
 
-USE_THRESHOLDING    = True
+USE_THRESHOLDING    = False
 THRESHOLDING_KERNEL = 3
 MORPHOLOGY_KERNEL   = 3
 
